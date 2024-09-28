@@ -1,0 +1,25 @@
+EXERCICE 4:
+
+#include <stdio.h>
+
+int main() {
+float T [5] ;
+float i;
+      printf("entre Température 1 :");
+      scanf("%f",&T[0]);
+      printf("entre Température 2 :");
+      scanf("%f",&T[1]);
+      printf("entre Température 3 :");
+      scanf("%f",&T[2]);
+      printf("entre Température 4 :");
+      scanf("%f",&T[3]);
+      printf("entre Température 5 :");
+      scanf("%f",&T[4]);
+      for (i=0 ;i<=5;i++);
+      
+
+      
+      
+      
+      return 0;
+}

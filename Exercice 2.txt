@@ -1,0 +1,19 @@
+EXERCICE 2:
+
+#include <stdio.h>
+
+int main() {
+ float T ;
+ printf ("Entre votre température :");
+ scanf ("%f" ,&T);
+ 
+ if (37 > T){
+     printf("Vous avez troup froid");
+ }else if (T >= 37 && T < 38 ){
+     printf ("Votre température est normal");
+ }else{
+     printf ("Vous avez de la fièvre");
+ }
+    return 0;
+}
+

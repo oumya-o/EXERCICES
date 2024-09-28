@@ -1,0 +1,16 @@
+EXERCICE 1:
+
+#include <stdio.h>
+
+int main() {
+  float B ,H ,A ,P;
+     printf ("Entre la base :");
+     scanf ("%f" ,&B);
+     printf ("Entre la hauteur :");
+     scanf ("%f" ,&H);
+     A=(B*H)/2;
+     P=3*B;
+     printf("Aire :%.2f\nPériméte :%.2f",A,P);
+
+    return 0;
+}
